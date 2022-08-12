@@ -1,0 +1,27 @@
+{
+  "name": "walk-up-bot",
+  "version": "1.0.0",
+  "description": "Discord bot designed to play your \"walk up\" song when entering a voice channel.",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djballowe/Walk-Up-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djballowe/Walk-Up-Bot/issues"
+  },
+  "homepage": "https://github.com/djballowe/Walk-Up-Bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.2",
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1"
+  }
+}
