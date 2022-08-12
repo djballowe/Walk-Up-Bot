@@ -2,6 +2,8 @@ const { SlashCommandBuilder, Routes } = require("discord.js");
 const { REST } = require("@discordjs/rest");
 const { clientId, guildId, token } = require("../config.json");
 
+// Register Commands Array
+
 const commands = [
   new SlashCommandBuilder()
     .setName("intro")

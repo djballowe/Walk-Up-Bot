@@ -10,5 +10,17 @@ client.once("ready", () => {
   console.log("Ready!");
 });
 
+// Listen for Commands
+client.on("interactionCreate",
+  async interaction => {
+    if (!interaction.isChatInputCommand()) return;
+
+    const { commandName } = interaction;
+
+    if (commandName === "intro") {
+      await interaction.reply("WHATS GOIN ON GUYS?!?! MY NAMES DJ");
+    }
+  });
+
 // Login to Discord with your client's token
 client.login(token);
